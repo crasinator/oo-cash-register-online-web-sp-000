@@ -11,8 +11,11 @@ class CashRegister
   end
 
   def add_item(title, price, quantity = 1)
-      quantity.times do |
-        @items << it
+      quantity.times do 
+        @items << title
+      end 
+      
+      
   def apply_discount
     if @discount == 0
       "There is no discount to apply."
