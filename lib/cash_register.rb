@@ -8,7 +8,7 @@ class CashRegister
   end 
   
   def add_item(item, priceasfloat, count = 1)
-if 
+    if count > 1 
   
  
 end 
