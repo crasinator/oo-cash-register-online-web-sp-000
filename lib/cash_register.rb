@@ -33,6 +33,8 @@ class CashRegister
     if @items == []
       self.total == 0.0
       @total
+    else
+      self.total = @total - @transactions.pop
     end 
   end
 end
