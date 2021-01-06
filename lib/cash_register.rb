@@ -10,8 +10,5 @@ class CashRegister
   def add_item(item, priceasfloat, count = 1)
     
   end
-
-
-  
  
 end 
