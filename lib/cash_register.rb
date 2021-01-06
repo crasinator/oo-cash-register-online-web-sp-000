@@ -7,7 +7,10 @@ class CashRegister
     @discount = discount
   end 
   
-  def add_item(total, price)
+  def add_item(total, price, count = 0)
+      if count > 0  
+        total = total * count
+      end   
     @total = total.to_i + price
   end 
   
