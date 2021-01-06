@@ -15,7 +15,7 @@ class CashRegister
         @items << title
       end 
       @last_total = @total
-      
+      @total 
       
   def apply_discount
     if @discount == 0
