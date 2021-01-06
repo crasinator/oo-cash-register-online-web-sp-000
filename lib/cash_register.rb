@@ -10,8 +10,6 @@ class CashRegister
     @transactions = []
   end
 
- def apply_discount 
- end 
  
   def apply_discount
     if @discount == 0
